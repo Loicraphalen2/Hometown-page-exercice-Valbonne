@@ -1,0 +1,120 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'MedievalSharp', cursive;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("images/valbonne-valbonne.jpg");
+    background-size: cover;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+#hero h1{
+    font-size: 32px;
+    background: #457B9D;
+    border-radius : 10px;
+    padding : 5px 15px 5px 15px; 
+    width: 225px;
+    font-weight: bold;
+    
+}
+
+#hero h2 {
+    font-size: 19px;
+    background: #1D3557;
+    border-radius: 10px;
+    padding:  5px 15px 5px 15px;
+    Width: 412px;
+    line-height: 22px;
+    font-weight: bolder; 
+}
+h3{
+    padding: 20px 0 0 0; 
+    margin: 0; 
+    background: #A8DADC;
+    font-size : 24px;
+}
+#activities {
+    background: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 343px;
+}
+
+#activities h4 {
+    line-height: 20px; 
+}
+
+#activities-img {
+    border-radius: 50%;
+    height: 100PX; 
+     
+}
+
+#guide {
+    color: white;
+    text-shadow: 0 0 1px black;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: lightblue solid 10px; 
+    }
+    
+#card {
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    background-color: #1D3557;
+    width: 400px;
+    height: 294px;
+    padding: 0 12px;
+
+    box-shadow: 0px 6px 0px var(--dark-blue);
+    border-radius: 10px;
+    border-bottom: lightblue solid 10px; 
+    
+}
+#details h1{
+    font-size: 24px;
+    line-height: 28px;
+    }
+    
+#details p{
+font-style: italic;
+padding: 5px 5px 5px 5px;
+} 
+
+#details a{
+    color: lightblue;
+    font-size: 17px; 
+}
+
+.imagecarte {
+    border: 5px solid lightblue; 
+}
